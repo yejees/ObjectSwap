@@ -1,3 +1,6 @@
+import os
+import cv2
+
 def video2frame():
     videofile_path = "E:\\yejee\\hackathon\\1229"
     video = "vita.mp4"
