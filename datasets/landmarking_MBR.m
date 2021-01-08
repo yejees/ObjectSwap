@@ -2,9 +2,9 @@ clear; close all; clc;
 
 obj = 'mbn_bottle2';
 
-load_dir = sprintf('%s_seg', obj);
+load_dir = sprintf('%s_seg_no_occ_85', obj);
 
-save_dir = sprintf('%s_lm_MBR', obj);
+save_dir = sprintf('%s_lm_MBR_no_occ_85', obj);
 if exist(save_dir, 'dir')
     rmdir(save_dir, 's');
 end

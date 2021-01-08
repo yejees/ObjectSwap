@@ -3,10 +3,10 @@ clear; close all; clc;
 object_name = 'mbn_bottle2';
 
 load_dir      = object_name;
-load_dir_seg  = sprintf('%s_seg', object_name);
-load_dir_out  = sprintf('%s_out_MBR', object_name);
+load_dir_seg  = sprintf('%s_seg_no_occ_85', object_name);
+load_dir_out  = sprintf('%s_out_MBR_no_occ_85', object_name);
 
-save_dir = sprintf('../imaginaire/dataset/%s_MBR', object_name);
+save_dir = sprintf('../imaginaire/dataset/%s_MBR_no_occ_85', object_name);
 
 if exist(save_dir, 'dir')
     rmdir(save_dir, 's');

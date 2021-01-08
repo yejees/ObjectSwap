@@ -7,9 +7,9 @@ from glob import glob
 
 src_dir = 'mbn_bottle2' 
 trg_dir = 'bottle_vitamin_samples'
-lm_dir  = src_dir + '_lm_MBR'
+lm_dir  = src_dir + '_lm_MBR_no_occ_85'
 
-save_dir = '%s_out_MBR' % src_dir
+save_dir = '%s_out_MBR_no_occ_85' % src_dir
 
 os.makedirs(save_dir, exist_ok=True)
 
