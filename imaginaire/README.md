@@ -1,4 +1,4 @@
-The codes were heavily borrowed from NVLabs/imaginaire:
+The codes were heavily borrowed from NVLabs/imaginaire: https://github.com/NVlabs/imaginaire
 
 <img src="imaginaire_logo.svg" alt="imaginaire_logo.svg" height="360"/>
 
