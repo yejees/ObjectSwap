@@ -1,3 +1,5 @@
+The codes were heavily borrowed from NVLabs/imaginaire:
+
 <img src="imaginaire_logo.svg" alt="imaginaire_logo.svg" height="360"/>
 
 # Imaginaire
